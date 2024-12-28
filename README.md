@@ -1,23 +1,27 @@
 ![logo](https://github.com/PrettyCoffee/fluidity/blob/main/public/logo192.png)
 
 # Fluidity - An accordion based startpage
-Here you can find the startpage I created for my browser :)
 
-If you have any problems or miss a feature, create an issue and I will take a look at it! Of course, if you want to add a feature yourself you can just create a fork and contribute ;)
+> [!IMPORTANT]
+> This is a forked version. Find the original [here](https://github.com/PrettyCoffee/fluidity)!
+
+Any issues found **should** be made within the original repository, but only if it's *not* about my fork.
 
 ## Showcase
 ### The startpage in action
+
 I created a [reddit post](https://www.reddit.com/r/startpages/comments/m82izg/my_new_startpage_any_ideas_for_names/) on r/startpages. There you can see a short video where I show all available features.
 
 You can also just take a look at the [Live Demo](https://prettycoffee.github.io/fluidity/).
 
 ### Themes
+
 ![Default theme](https://github.com/PrettyCoffee/fluidity/blob/main/docs/default-theme.png)
 ![Dark Souls theme](https://github.com/PrettyCoffee/fluidity/blob/main/docs/DarkSouls-theme.png)
 ![Pop!OS theme](https://github.com/PrettyCoffee/fluidity/blob/main/docs/pop!os-theme.png)
-**If you created a theme and want to see it here, hit me up!**
 
 ## Usage
+
 You can apply startpages by using several methods. To keep it simple, I will only cover one (the easiest) here:
 1. Download a New Tab Override Plugin (e.g. [Chrome](https://chrome.google.com/webstore/detail/new-tab-redirect/icpgjfneehieebagbmdbhnlpiopdcmna) | [Firefox](https://addons.mozilla.org/en-US/firefox/addon/new-tab-override/))
 1. Open the Plugins Settings
