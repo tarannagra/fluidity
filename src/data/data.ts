@@ -19,86 +19,99 @@ export interface linkGroup {
 }
 
 /* eslint-disable */
-/*
-──────▄▌▐▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀​▀▀▀▀▀▀▌
-───▄▄██▌█ BEEP BEEP
-▄▄▄▌▐██▌█ GAY PORN DELIVERY
-███████▌█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄​▄▄▄▄▄▄▌
-▀(@)▀▀▀▀▀▀▀(@)(@)▀▀▀▀▀▀▀▀▀▀▀▀▀​▀▀▀▀(@)▀
-*/
-/* eslint-enable */
+
+// Aula (University) related URLs
+const dissertation = "https://coventry.aula.education/#/dashboard/375c24d6-f2a9-45ad-b981-ede9fb1dcd7b/community/common-room";
+const arti_brains = "https://coventry.aula.education/#/dashboard/4955d313-b27a-4067-8417-22f8fc193449/community/common-room"
+const intelligent = "https://coventry.aula.education/#/dashboard/ea63164b-e7b2-4642-b912-07484c873aae/community/common-room";
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "Main",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "GitHub",
+        value: "https://github.com/",
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
+        label: "Jellyfin",
+        value: "http://localhost:8096/web/index.html",
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        label: "Prowlarr",
+        value: "http://localhost:9696/search",
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        label: "YouTube",
+        value: "https://youtube.com/",
       },
     ],
   },
   {
-    title: "3D Modelling",
+    title: "University",
     links: [
       {
-        label: "Blender",
-        value: "https://www.blender.org/",
+        label: "Aula",
+        value: "https://coventry.aula.education/",
+      },
+      // for some ridiculous reason, it doesn't allow aula spaces
+      {
+        label: "6001CEM",
+        value: dissertation,
       },
       {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
+        label: "6057CEM",
+        value: arti_brains,
       },
       {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
+        label: "6058CEM",
+        value: intelligent,
       },
       {
-        label: "Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
-      },
-      {
-        label: "The other Blender tutorial",
-        value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+        label: "ChatGPT",
+        value: "https://chat.openai.com",
       },
     ],
   },
   {
-    title: "Design",
+    title: "Personal",
     links: [
       {
-        label: "PixlrX",
-        value: "https://pixlr.com/x/",
+        label: "Ente Auth",
+        value: "https://auth.ente.io/auth"
       },
       {
-        label: "AI Image Enlarger",
-        value: "https://bigjpg.com/en",
+        label: "Ente Photos",
+        value: "https://web.ente.io/gallery"
       },
       {
-        label: "Img to Svg Converter",
-        value: "https://picsvg.com/",
+        label: "Instagram",
+        value: "https://instagram.com"
       },
       {
-        label: "Affinity",
-        value: "https://affinity.serif.com/en-us/tutorials/designer/desktop/",
+        label: "LinkedIn",
+        value: "https://linkedin.com/"
       },
       {
-        label: "Affinity - YT",
-        value: "https://www.youtube.com/c/AffinityRevolution/playlists",
+        label: "Proton Mail",
+        value: "https://mail.proton.me/",
+      },
+    ],
+  },
+  {
+    title: "Gaming",
+    links: [
+      {
+        label: "Destiny Item Manager",
+        value: "https://app.destinyitemmanager.com/4611686018517084183/d2/inventory",
+      },
+      {
+        label: "Engram Blue",
+        value: "https://engram.blue/",
+      },
+      {
+        label: "Mobalytics",
+        value: "https://mobalytics.gg/destiny-2/builds",
       },
     ],
   },
@@ -106,54 +119,37 @@ export const links: linkGroup[] = [
     title: "Music",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
-      },
-      {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
-      },
-      {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
-      },
-      {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
-      },
-      {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
+        label: "My Mix - YouTube",
+        value: "https://www.youtube.com/watch?v=Mvvsa5HAJiI&list=RDMM&start_radio=1",
       },
     ],
   },
   {
-    title: "Sauce",
+    title: "Piracy",
     links: [
       {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
+        label: "Cobalt",
+        value: "https://cobalt.tools/"
       },
       {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
+        label: "FMHY",
+        value: "https://fmhy.net"
       },
       {
-        label: "Text Flicker - CodeMyUI",
-        value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
+        label: "Lucida",
+        value: "https://lucida.to/"
       },
       {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
+        label: "Megathread",
+        value: "https://rentry.co/megathread",
       },
       {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
+        label: "r/Piracy",
+        value: "https://reddit.com/r/Piracy",
       },
       {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
+        label: "qBittorrent WebUI",
+        value: "http://127.0.0.1:8080/#/",
       },
     ],
   },
@@ -174,10 +170,6 @@ export const searchEngines: dataElem[] = [
   {
     label: "DuckDuckGo",
     value: `https://duckduckgo.com/?q=${queryToken}`,
-  },
-  {
-    label: "Google",
-    value: `https://www.google.com/search?q=${queryToken}`,
   },
   {
     label: "Qwant",
