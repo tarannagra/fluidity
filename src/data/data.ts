@@ -191,12 +191,10 @@ export interface Search {
 export const searchSettings: Search = {
   engine: searchEngines[0].value,
   fastForward: {
-    deepl: "https://deepl.com/",
-    maps: "https://google.de/maps/",
-    reddit: "https://reddit.com/",
-    github: "https://github.com/",
-    gitlab: "https://gitlab.com/",
-    youtube: "https://youtube.com/",
+    maps: "https://www.openstreetmap.org",
+    gpt: "https://chat.openai.com",
+    gh: "https://github.com/",
+    yt: "https://youtube.com/",
   },
 }
 
