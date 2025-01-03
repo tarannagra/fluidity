@@ -77,6 +77,10 @@ export const links: linkGroup[] = [
     title: "Personal",
     links: [
       {
+        label: "Beeper",
+        value: "https://chat.beeper.com/"
+      },
+      {
         label: "Ente Auth",
         value: "https://auth.ente.io/auth"
       },
