@@ -93,10 +93,6 @@ export const links: linkGroup[] = [
         value: "https://instagram.com"
       },
       {
-        label: "LinkedIn",
-        value: "https://linkedin.com/"
-      },
-      {
         label: "Proton Mail",
         value: "https://mail.proton.me/",
       },
